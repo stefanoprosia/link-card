@@ -20,3 +20,41 @@ body {
   border-width: 3px;
   padding: .1px 1rem;
 }
+
+.link-card {
+  text-decoration: none;
+  color: #512200;
+  font-family: "Georgia", serif;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #785439;
+  color: #fff;
+  text-align: center;
+}
+
+dl dd {
+  display: block;
+  margin-left: 10rem;
+}
+
+dl dt {
+  display: block;
+}
